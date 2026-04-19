@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;       
+    margin: 0;              
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.kotak-input {
+    display: block;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+p > span {
+    color: coral;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #29ddcc;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #171b25;
+    color: #ebecf7;
+}
+
+.dark-mode #editor-kecil {
+    background-color: #2e3443;
+    color: #ebecf7;
+}
+
+.sepia-mode {
+    background-color: #F4ECD8;
+    color: #5B4636;
+}
+
+.sepia-mode #editor-kecil {
+    background-color: #ffffff; 
+    color: #000000; 
+}

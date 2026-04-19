@@ -1,0 +1,17 @@
+# Tugas Mandiri 05: Pemrograman JavaScript
+
+## Soal
+
+Tugasmu adalah membuat fungsi yang menolak bilangan-bilangan kelipatan 3, 5, atau 15, menerima bilangan-bilangan bukan "fizz buzz", dan melempar yang bukan bilangan bulat.
+
+## Kode sumber
+
+Tersedia di index.js
+
+## Output
+
+![alt text](image.png)
+
+## Deskripsi Program
+
+Program ini merupakan sebuah fungsi JavaScript yang bertugas untuk menyaring input angka berdasarkan kebalikan dari aturan "FizzBuzz" dan menerapkan konsep Defensive Programming. Tujuan utamanya adalah untuk memastikan fungsi hanya menerima angka yang berupa bilangan bulat murni dan bukan merupakan kelipatan dari 3, 5, atau 15.
